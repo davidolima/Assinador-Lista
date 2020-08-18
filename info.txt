@@ -1,0 +1,5 @@
+link_lista_inicial: https://forms.gle/8Rf7Lm4TFKF3oM8h6
+link_lista_final: https://forms.gle/8yTehLcnJLcTkpJXA
+nome: Joao Grofedy
+horario_lista_inicial: 8
+horario_lista_final: 12

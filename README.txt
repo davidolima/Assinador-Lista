@@ -1,0 +1,1 @@
+só substitui as info em info.txt
