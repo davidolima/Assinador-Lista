@@ -39,6 +39,9 @@ if horarioInicial <= int(time.localtime().tm_hour) < horarioInicial+1:
     enviar.click()
     
     print("Lista Inicial Assinada com o nome",nome)
+    input("Pressione Enter pra sair.")
+    driver.quit()
+    quit()
 
 if horarioFinal-1 <= int(time.localtime().tm_hour) < horarioFinal:
     iniciarDriver()
@@ -49,6 +52,12 @@ if horarioFinal-1 <= int(time.localtime().tm_hour) < horarioFinal:
     enviar = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".appsMaterialWizButtonPaperbuttonLabel")))
     enviar.click()
     print("Lista Final assinada com o nome", nome)
+    input("Pressione Enter pra sair.")
+    driver.quit()
+    quit()
 
 else:
     print("Não há listas pra assinar",time.localtime().tm_hour,"horas")
+    input("Pressione Enter pra sair.")
+    driver.quit()
+    quit()

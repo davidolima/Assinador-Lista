@@ -1,1 +1,1 @@
-só substitui as info em info.txt
+só substituir as informações em info.txt
